@@ -127,8 +127,9 @@ writeTrucks = (trucks) ->
             ' and will be there from ' + truck.start +
             ' until ' + truck.end +
             '\r\n'
-      if(result is "")
-        result = "But it looks like there aren't any nearby :("
+
+  if(result is "")
+    result = "But it looks like there aren't any nearby :("
 
   return result
 
